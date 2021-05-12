@@ -13,4 +13,9 @@ public:
     ~DSPhanSo();
     void Nhap();
     void Xuat();
+    PhanSo Tong();
+    PhanSo LonNhat();
+    PhanSo NhoNhat();
+    void SapXepTangDan();
+    void SapXepGiamDan();
 };
