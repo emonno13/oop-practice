@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <string>
 using namespace std;
@@ -16,6 +17,14 @@ public:
     HocSinh(const HocSinh &);
     ~HocSinh();
 
+    void setHoTen(const string &);
+    void setMaSo(const string &);
+    void setSDT(const string &);
+    void setDiemTB(const float &);
+    string getHoTen();
+    string getMaSo();
+    string getSDT();
+    float getDiemTB();
     friend istream &operator>>(istream &is, HocSinh &hs);
     friend ostream &operator<<(ostream &os, HocSinh hs);
 };
