@@ -8,11 +8,12 @@ private:
     string hocham;
     string hocvi;
     int sonamday;
-    int somonday;
+    // int somonday;
+    vector<string> monhoc;
 
 public:
     GiangVien();
-    GiangVien(string, string, string, string, string, int, int);
+    GiangVien(string, string, string, string, string, int, vector<string>);
     GiangVien(const GiangVien &x);
     ~GiangVien();
     void Nhap();

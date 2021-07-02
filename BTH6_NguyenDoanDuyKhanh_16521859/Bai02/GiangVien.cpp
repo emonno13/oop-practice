@@ -13,7 +13,7 @@ GiangVien::GiangVien(string maso, string hoten, string ngaysinh, int sotietday, 
     this->sodetaikhoaluan = sodetaikhoaluan;
 };
 
-GiangVien::GiangVien(const GiangVien &x) : GiangVien(x)
+GiangVien::GiangVien(const GiangVien &x) : NhanVien(x)
 {
     this->sotietday = x.sotietday;
     this->sodetaikhoaluan = x.sodetaikhoaluan;
