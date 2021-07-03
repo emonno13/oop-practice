@@ -1,3 +1,5 @@
+#pragma once
+
 #include "PhiThuyen.cpp"
 
 class Apollo : public PhiThuyen
@@ -7,7 +9,7 @@ private:
 
 public:
     Apollo();
-    Apollo(string, string, int, int);
+    Apollo(string, string);
     ~Apollo();
 
     void setN(const int &);
